@@ -1,0 +1,32 @@
+# Binaries & archives
+openlist.exe
+*.exe
+*.zip
+*.7z
+
+# Runtime data, backups, downloads & test fixtures
+data/
+backups/
+downloads/
+test-files/
+
+# Databases, logs & locks
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.log.*
+*.lock
+
+# Credentials, secrets & local configs
+accounts.dpapi.xml
+*.dpapi.xml
+original-firewall.xml
+config.json
+.env
+
+# Windows shortcuts & local run outputs
+*.lnk
+*-result.json
+validation.json
+settings-summary.json
